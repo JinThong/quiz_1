@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SITCoin</string>
+    <string name="receive_sitc">Receive SITC</string>
+    <string name="send_sitc">Send SITC</string>
+</resources>

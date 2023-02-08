@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/VacinationHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="COVID-19 Vaccination Registration "
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <ImageView
+        android:id="@+id/imageViewVaccination"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/vaccinationsglogosm" />
+
+
+    <TextView
+        android:id="@+id/BookingcodeHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Booking code"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <TextView
+        android:id="@+id/testSMScodeHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter the 10-character code sent to you via SMS" />
+
+    <EditText
+        android:id="@+id/editTextSMSCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter 10 character code"
+        android:inputType="textPersonName"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:id="@+id/editTextNRICHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Identification No."
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <EditText
+        android:id="@+id/editTextNRIC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter NRIC or FIn"
+        android:inputType="textPassword"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/buttonGetStarted"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGIN" />
+
+    <Button
+        android:id="@+id/buttonClear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CLEAR" />
+</LinearLayout>
